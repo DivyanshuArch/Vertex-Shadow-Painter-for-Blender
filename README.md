@@ -44,11 +44,4 @@ To see the painted vertex shadows in Blender:
 2. Under **Color**, select **Attribute** (or **Vertex**).
 3. Alternatively, switch the 3D Viewport mode to **Vertex Paint**.
 
----
 
-## Exporting to Godot / GLTF
-
-When exporting to `.glb` or `.gltf` for Godot:
-1. Go to **File > Export > glTF 2.0 (.glb/.gltf)**.
-2. In the export settings under **Data > Mesh**, ensure **Color Attributes** (or **Vertex Colors**) is enabled.
-3. In Godot, on your `StandardMaterial3D`, turn on **Vertex Color > Use As Albedo** (or multiply in your shader) to view the baked shadows!
